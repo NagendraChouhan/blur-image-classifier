@@ -23,7 +23,6 @@ test.py          # inference on a single image or a folder
 data/            # training images: data/sharp, data/motion, data/defocus  (not tracked in git)
 test_img/        # sample images for quick inference checks
 outputs/         # trained model (blur_model.pkl), metrics, and evaluation plots
-cv_report.pdf    # project report
 ```
 
 ## Setup
@@ -36,7 +35,18 @@ pip install opencv-python numpy scikit-learn matplotlib
 
 ## Training
 
-Expects `data/<dataset_root>/{sharp,motion,defocus}/` folders of images.
+Expects `data/<dataset_root>/{sharp,motion,defocus}/` folders of images. This project uses the [Blur Dataset](https://www.kaggle.com/datasets/kwentar/blur-dataset) from Kaggle:
+
+```bibtex
+@misc{blurdataset2020,
+  title        = {Blur Dataset},
+  author       = {Kwentar},
+  year         = {2020},
+  publisher    = {Kaggle},
+  journal      = {Kaggle Datasets},
+  howpublished = {\url{https://www.kaggle.com/datasets/kwentar/blur-dataset}}
+}
+```
 
 ```bash
 python train.py --dataset data --output outputs
