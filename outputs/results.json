@@ -1,0 +1,8 @@
+{
+  "test_accuracy": 0.9,
+  "cv_mean": 0.88,
+  "cv_std": 0.021,
+  "n_train": 840,
+  "n_test": 210,
+  "img_size": 256
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "path": "test_img/test.jpeg",
+    "prediction": "Sharp",
+    "confidence": 0.9858825725243957,
+    "blur_score": 0.0215,
+    "probabilities": {
+      "Sharp": 0.9859,
+      "Motion-Blurred": 0.0141,
+      "Defocus-Blurred": 0.0
+    }
+  },
+  {
+    "path": "test_img/test2.jpg",
+    "prediction": "Motion-Blurred",
+    "confidence": 0.5207155632391546,
+    "blur_score": 0.1708,
+    "probabilities": {
+      "Sharp": 0.4202,
+      "Motion-Blurred": 0.5207,
+      "Defocus-Blurred": 0.0591
+    }
+  },
+  {
+    "path": "test_img/test3.jpeg",
+    "prediction": "Defocus-Blurred",
+    "confidence": 0.9794188534945459,
+    "blur_score": 0.8338,
+    "probabilities": {
+      "Sharp": 0.0002,
+      "Motion-Blurred": 0.0204,
+      "Defocus-Blurred": 0.9794
+    }
+  },
+  {
+    "path": "test_img/test4.jpeg",
+    "prediction": "Defocus-Blurred",
+    "confidence": 0.954428390204246,
+    "blur_score": 0.0579,
+    "probabilities": {
+      "Sharp": 0.0064,
+      "Motion-Blurred": 0.0391,
+      "Defocus-Blurred": 0.9544
+    }
+  }
+]
