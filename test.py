@@ -157,7 +157,7 @@ def print_summary(results: list):
     if low_conf:
         print(f"\n  ⚠ {len(low_conf)} image(s) below {CONFIDENCE_THRESHOLD:.0%} confidence — consider retraining with more data.")
 
-
+# examining the predictions
 def plot_predictions(results: list, save_path: str = None, max_display: int = 12):
     results = results[:max_display]
     n = len(results)
