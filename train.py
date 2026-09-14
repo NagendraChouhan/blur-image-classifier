@@ -22,7 +22,7 @@ LABELS = {0: "Sharp", 1: "Motion-Blurred", 2: "Defocus-Blurred"}
 LABEL_COLORS = {"Sharp": "#2ECC71", "Motion-Blurred": "#E74C3C", "Defocus-Blurred": "#3498DB"}
 SUPPORTED_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp"}
 
-
+# function to extract features
 def extract_features(image_path: str, img_size: int = 256) -> np.ndarray:
     img = cv2.imread(image_path)
     if img is None:
